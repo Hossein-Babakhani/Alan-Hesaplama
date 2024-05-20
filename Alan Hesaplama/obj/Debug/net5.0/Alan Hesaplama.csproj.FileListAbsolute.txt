@@ -1,0 +1,16 @@
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\bin\Debug\net5.0\Alan Hesaplama.exe
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\bin\Debug\net5.0\Alan Hesaplama.deps.json
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\bin\Debug\net5.0\Alan Hesaplama.runtimeconfig.json
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\bin\Debug\net5.0\Alan Hesaplama.runtimeconfig.dev.json
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\bin\Debug\net5.0\Alan Hesaplama.dll
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\bin\Debug\net5.0\ref\Alan Hesaplama.dll
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\bin\Debug\net5.0\Alan Hesaplama.pdb
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.csproj.AssemblyReference.cache
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.AssemblyInfoInputs.cache
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.AssemblyInfo.cs
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.csproj.CoreCompileInputs.cache
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.dll
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\ref\Alan Hesaplama.dll
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.pdb
+C:\Users\Hossein\source\repos\امتحانات شرکت\متوسط\01-Alan Hesaplama\Alan Hesaplama\obj\Debug\net5.0\Alan Hesaplama.genruntimeconfig.cache
