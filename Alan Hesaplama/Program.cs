@@ -6,71 +6,71 @@ namespace Alan_Hesaplama
     {
         static void Main(string[] args)
         {
-            Console.Write("Şekli girin (Daire, Üçgen, Kare, Dikdörtgen. ): ");
-            string şekil = Console.ReadLine();
+            Console.Write("Enter the shape (Circle, Triangle, Square, Rectangle): ");
+            string shape = Console.ReadLine();
 
-            double sonuç = 0;
+            double conclusion = 0;
 
-            switch (şekil.ToLower())
+            switch (shape.ToLower())
             {
-                case "daire":
-                    Console.Write("Yarıçapı girin: ");
-                    double yarıçap = Convert.ToDouble(Console.ReadLine());
-                    sonuç = Daire_Çevresini_Hesapla(yarıçap);
-                    Console.WriteLine($"Çemberin çevresi: {sonuç:F2}");
+                case "Circle":
+                    Console.Write("Enter the radius: ");
+                    double radius = Convert.ToDouble(Console.ReadLine());
+                    conclusion = Circle_around_Calculate(radius);
+                    Console.WriteLine($"Circumference of the circle: {conclusion:F2}");
                     break;
 
-                case "üçgen":
-                    Console.Write("Üsse girin: ");
-                    double taban_uzunluğu = Convert.ToDouble(Console.ReadLine());
-                    Console.Write("Yüksekliği girin: ");
-                    double yükseklik = Convert.ToDouble(Console.ReadLine());
-                    sonuç = Üçgen_Alanı_Hesapla(taban_uzunluğu, yükseklik);
-                    Console.WriteLine($"Üçgenin alanı: {sonuç:F2}");
+                case "Triangle":
+                    Console.Write("Enter the base: ");
+                    double base_length = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Enter the height:");
+                    double height = Convert.ToDouble(Console.ReadLine());
+                    sonuç = Triangle_Area_Calculate(base_length, height);
+                    Console.WriteLine($"area of triangle: {conclusion:F2}");
                     break;
 
-                case "kare":
-                    Console.Write("Kenar uzunluğunu girin: ");
-                    double kenar_uzunluğu = Convert.ToDouble(Console.ReadLine());
-                    sonuç = Kare_Alanı_Hesapla(kenar_uzunluğu);
-                    Console.WriteLine($"Meydanın alanı: {sonuç:F2}");
+                case "Square":
+                    Console.Write("Enter the side length: ");
+                    double edge_length = Convert.ToDouble(Console.ReadLine());
+                    conclusion = Square_Area_Calculate(edge_length);
+                    Console.WriteLine($"Area of the square: {conclusion:F2}");
                     break;
 
-                case "dikdörtgen":
-                    Console.Write("Uzunluğu girin: ");
-                    double uzunluk = Convert.ToDouble(Console.ReadLine());
-                    Console.Write("Genişliği girin: ");
-                    double Genişlik = Convert.ToDouble(Console.ReadLine());
-                    sonuç = Dikdörtgen_Alanı_Hesapla(uzunluk, Genişlik);
-                    Console.WriteLine($"Dikdörtgenin alanı: {sonuç:F2}");
+                case "Rectangle":
+                    Console.Write("Enter the length: ");
+                    double length = Convert.ToDouble(Console.ReadLine());
+                    Console.Write("Enter the width: ");
+                    double Width = Convert.ToDouble(Console.ReadLine());
+                    conclusion = Rectangle_Area_Calculate(length, Width);
+                    Console.WriteLine($"Area of rectangle: {conclusion:F2}");
                     break;
 
                 default:
-                    Console.WriteLine("Geçersiz şekil. Lütfen tekrar deneyin.");
+                    Console.WriteLine("Invalid shape. Please try again.");
                     break;
             }
 
             Console.ReadLine();
         }
 
-        static double Daire_Çevresini_Hesapla(double yarıçap)
+        static double Circle_around_Calculate(double radius)
         {
-            return 2 * Math.PI * yarıçap;
+            return 2 * Math.PI * radius;
         }
 
-        static double Üçgen_Alanı_Hesapla(double taban_uzunluğu, double yükseklik)
+        static double Triangle_around_Calculate(double base_length, double height)
         {
-            return 0.5 * taban_uzunluğu * yükseklik;
+            return 0.5 * base_length * height;
         }
 
-        static double Kare_Alanı_Hesapla(double kenar_uzunluğu)
+        static double Square_around_Calculate(double edge_length)
         {
-            return kenar_uzunluğu* kenar_uzunluğu;
+            return edge_length* edge_length;
         }
 
-        static double Dikdörtgen_Alanı_Hesapla(double uzunluk, double Genişlik)
+        static double Rectangle_around_Calculate(double length, double Width)
         {
-            return uzunluk * Genişlik;
+            return length * Width;
         }
     }
 }
