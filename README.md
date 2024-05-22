@@ -1,4 +1,3 @@
 # Alan-Hesaplama
 C# Console uygulaması oluşturarak aşağıdaki gereksinimleri karşılayan uygulamayı yazınız.  İşlem yapılmak istenen geometrik şekli kullanıcıdan alınmalı (Daire, Üçgen, Kare, Dikdörtgen vb..) Seçilen şekle göre, kenar bilgilerin kullanıcıdan alınmalı Hesaplanmak istenen boyutu kullanıcıdan alınmalı (Çevre, Alan, Hacim vb..) ...
-![Uploading ezgif-3-c419af7de5.gif…]()
-
+![ezgif-3-c419af7de5](https://github.com/Hossein-Babakhani/Alan-Hesaplama/assets/169270653/c57b1b1f-6533-4f2e-9cef-53046f0ca5a6)
